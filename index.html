@@ -10,72 +10,79 @@
             font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f9f9f9;
+            background-color: #f0f0f0;
             color: #333;
+            line-height: 1.6;
         }
         header {
-            background-color: #4CAF50;
-            padding: 20px 0;
-            text-align: center;
+            background: #282c34;
             color: white;
+            padding: 40px 0;
+            text-align: center;
         }
         header h1 {
+            font-size: 2.8rem;
+            letter-spacing: 1px;
             margin: 0;
-            font-size: 2.5em;
+            font-weight: 300;
         }
         nav {
-            text-align: center;
-            margin-top: 10px;
+            margin-top: 20px;
         }
         nav a {
-            color: white;
-            margin: 0 15px;
             text-decoration: none;
-            font-size: 1.1em;
+            color: #fff;
+            margin: 0 15px;
+            font-size: 1.1rem;
             text-transform: uppercase;
+            font-weight: 600;
         }
         nav a:hover {
-            text-decoration: underline;
+            border-bottom: 2px solid #f39c12;
         }
         section {
             padding: 40px;
-            margin: 20px 0;
-        }
-        section h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-        .content {
             max-width: 1200px;
             margin: 0 auto;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .content {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            gap: 20px;
         }
         .content div {
-            width: 48%;
-            margin-bottom: 20px;
+            flex: 1 1 45%;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
         .content div h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
+            font-size: 1.5rem;
+            color: #f39c12;
+        }
+        .content div p, .content div ul {
+            font-size: 1rem;
+            color: #555;
         }
         .content div ul {
             list-style: none;
-            padding: 0;
-        }
-        .content div ul li {
-            margin-bottom: 10px;
+            padding-left: 0;
         }
         footer {
-            background-color: #333;
+            background: #282c34;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 20px;
             margin-top: 40px;
         }
         footer a {
-            color: white;
+            color: #f39c12;
             text-decoration: none;
         }
     </style>
@@ -97,11 +104,11 @@
     <h2>Sobre</h2>
     <div class="content">
         <div>
-            <h3>Nome:</h3>
-            <p>Lucas da Silva Tavares</p>
-            <h3>Profissão:</h3>
-            <p>Cabo - Exército Brasileiro</p>
-            <h3>Objetivo Profissional:</h3>
+            <h3>Quem Sou</h3>
+            <p>Meu nome é Lucas da Silva Tavares, e sou estudante de Análise e Desenvolvimento de Sistemas. Além disso, sou militar do Exército Brasileiro, atualmente no cargo de Cabo.</p>
+        </div>
+        <div>
+            <h3>Objetivo Profissional</h3>
             <p>Busco uma oportunidade na área de Análise e Desenvolvimento de Sistemas, onde possa aplicar meus conhecimentos adquiridos na graduação e experiências práticas, com foco em inovação e melhoria contínua.</p>
         </div>
     </div>
@@ -111,17 +118,13 @@
     <h2>Experiência Profissional</h2>
     <div class="content">
         <div>
-            <h3>Cargo:</h3>
-            <p>Cabo - Exército Brasileiro</p>
-            <h3>Desde:</h3>
-            <p>Março de 2019</p>
-            <h3>Principais Responsabilidades:</h3>
+            <h3>Cargo: Cabo - Exército Brasileiro</h3>
+            <p>Desde março de 2019, tenho trabalhado em diversas funções administrativas e operacionais, com ênfase em coordenação de equipes, gestão de licitações públicas e planejamento estratégico.</p>
+            <h3>Responsabilidades</h3>
             <ul>
-                <li>Liderança e coordenação de equipes em atividades administrativas e operacionais.</li>
-                <li>Gerenciamento de processos relacionados à execução de licitações públicas.</li>
-                <li>Análise e organização de documentos para atender exigências legais e regulatórias.</li>
-                <li>Acompanhamento de processos licitatórios, desde o planejamento até a execução.</li>
-                <li>Planejamento estratégico para otimização de recursos.</li>
+                <li>Liderança e coordenação de equipes.</li>
+                <li>Gerenciamento de processos de licitações públicas.</li>
+                <li>Análise e organização de documentos e propostas.</li>
             </ul>
         </div>
     </div>
@@ -131,27 +134,23 @@
     <h2>Formação Acadêmica</h2>
     <div class="content">
         <div>
-            <h3>Centro Educacional 02 de Sobradinho - Ensino Médio (Fev/2019 - Dez/2019)</h3>
-            <h3>Centro Universitário de Brasília - Análise e Desenvolvimento de Sistemas (Cursando - 1º Semestre - Mar/2025)</h3>
+            <h3>Centro Universitário de Brasília</h3>
+            <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas (Cursando - 1º Semestre)</p>
+            <p><strong>Período:</strong> Mar/2025</p>
         </div>
     </div>
 </section>
 
 <section id="habilidades">
-    <h2>Habilidades e Competências</h2>
+    <h2>Habilidades</h2>
     <div class="content">
         <div>
             <ul>
-                <li>Liderança e coordenação de equipes</li>
-                <li>Gerenciamento de processos de licitações públicas</li>
-                <li>Análise e organização de documentos</li>
-                <li>Gestão de documentos e controle de prazos</li>
-                <li>Comunicação eficaz e negociação</li>
-                <li>Conhecimento em Licitações Públicas (Lei 8.666/93, Lei 14133)</li>
-                <li>Controle de Materiais e Estoque</li>
-                <li>Planejamento e Organização de processos administrativos</li>
-                <li>Trabalho em equipe e gestão de relacionamentos</li>
-                <li>Proatividade e solução de problemas</li>
+                <li>Gestão de processos administrativos e licitações.</li>
+                <li>Coordenação de equipes e liderança.</li>
+                <li>Planejamento e organização de tarefas.</li>
+                <li>Comunicação eficaz e negociação.</li>
+                <li>Conhecimento em Licitações Públicas (Lei 8.666/93, Lei 14133 e atualizações).</li>
             </ul>
         </div>
     </div>
@@ -161,7 +160,7 @@
     <h2>Contato</h2>
     <div class="content">
         <div>
-            <h3>Entre em contato comigo:</h3>
+            <h3>Entre em contato:</h3>
             <ul>
                 <li>Email: <a href="mailto:tavares.lucas1340@gmail.com">tavares.lucas1340@gmail.com</a></li>
                 <li>LinkedIn: <a href="https://www.linkedin.com/in/lucas-da-silva-tavares/" target="_blank">Lucas da Silva Tavares</a></li>
@@ -173,10 +172,8 @@
 
 <footer>
     <p>&copy; 2025 Lucas da Silva Tavares - Todos os direitos reservados.</p>
-    <p><a href="mailto:tavares.lucas1340@gmail.com">Entre em contato</a></p>
 </footer>
 
 </body>
 </html>
 
-           
