@@ -1,193 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lucas da Silva Tavares - Site Pessoal</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-            line-height: 1.6;
-        }
-        header {
-            background: #282c34;
-            color: white;
-            padding: 40px 0;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.8rem;
-            letter-spacing: 1px;
-            margin: 0;
-            font-weight: 300;
-        }
-        nav {
-            margin-top: 20px;
-        }
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            margin: 0 15px;
-            font-size: 1.1rem;
-            text-transform: uppercase;
-            font-weight: 600;
-        }
-        nav a:hover {
-            border-bottom: 2px solid #f39c12;
-        }
-        section {
-            padding: 40px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        section h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            color: #333;
-        }
-        .content {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .content div {
-            flex: 1 1 45%;
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-        .content div h3 {
-            font-size: 1.5rem;
-            color: #f39c12;
-        }
-        .content div p, .content div ul {
-            font-size: 1rem;
-            color: #555;
-        }
-        .content div ul {
-            list-style: none;
-            padding-left: 0;
-        }
-        footer {
-            background: #282c34;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
-        footer a {
-            color: #f39c12;
-            text-decoration: none;
-        }
-        .button {
-            background-color: #f39c12;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            margin-top: 10px;
-            display: inline-block;
-        }
-        .button:hover {
-            background-color: #e67e22;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lucas da Silva Tavares - Site Pessoal</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #20232a;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    nav {
+      margin-top: 15px;
+    }
+    nav a {
+      color: #f0f0f0;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f39c12;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contato-buttons a {
+      display: inline-block;
+      background: #f39c12;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      margin: 10px 5px 0 0;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .contato-buttons a i {
+      margin-right: 8px;
+    }
+    footer {
+      text-align: center;
+      background: #20232a;
+      color: #fff;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <h1>Lucas da Silva Tavares</h1>
-    <nav>
-        <a href="#sobre">Sobre</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#formacao">Formação</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#contato">Contato</a>
-    </nav>
+  <h1>👨‍💻 Lucas da Silva Tavares</h1>
+  <nav>
+    <a href="#sobre">🧾 Sobre</a>
+    <a href="#experiencia">💼 Experiência</a>
+    <a href="#formacao">🎓 Formação</a>
+    <a href="#habilidades">🛠️ Habilidades</a>
+    <a href="#contato">📞 Contato</a>
+  </nav>
 </header>
 
 <section id="sobre">
-    <h2>Sobre</h2>
-    <div class="content">
-        <div>
-            <h3>Quem Sou</h3>
-            <p>Meu nome é Lucas da Silva Tavares, e sou estudante de Análise e Desenvolvimento de Sistemas. Além disso, sou militar do Exército Brasileiro, atualmente no cargo de Cabo.</p>
-        </div>
-        <div>
-            <h3>Objetivo Profissional</h3>
-            <p>Busco uma oportunidade na área de Análise e Desenvolvimento de Sistemas, onde possa aplicar meus conhecimentos adquiridos na graduação e experiências práticas, com foco em inovação e melhoria contínua.</p>
-        </div>
-    </div>
+  <h2>🧾 Sobre</h2>
+  <div class="card">
+    <p><strong>Nome:</strong> Lucas da Silva Tavares</p>
+    <p><strong>Profissão:</strong> Cabo - Exército Brasileiro</p>
+    <p><strong>Objetivo:</strong> Busco estágio em Análise e Desenvolvimento de Sistemas para aplicar meus conhecimentos com foco em inovação e melhoria contínua.</p>
+  </div>
 </section>
 
 <section id="experiencia">
-    <h2>Experiência Profissional</h2>
-    <div class="content">
-        <div>
-            <h3>Cargo: Cabo - Exército Brasileiro</h3>
-            <p>Desde março de 2019, tenho trabalhado em diversas funções administrativas e operacionais, com ênfase em coordenação de equipes, gestão de licitações públicas e planejamento estratégico.</p>
-            <h3>Responsabilidades</h3>
-            <ul>
-                <li>Liderança e coordenação de equipes.</li>
-                <li>Gerenciamento de processos de licitações públicas.</li>
-                <li>Análise e organização de documentos e propostas.</li>
-            </ul>
-        </div>
-    </div>
+  <h2>💼 Experiência Profissional</h2>
+  <div class="card">
+    <p><strong>Cargo:</strong> Cabo - Exército Brasileiro (desde Março de 2019)</p>
+    <ul>
+      <li>👥 Liderança de equipes administrativas e operacionais</li>
+      <li>📑 Gerenciamento de processos de licitação</li>
+      <li>🗂️ Organização de documentos e propostas</li>
+      <li>📊 Planejamento estratégico interno</li>
+    </ul>
+  </div>
 </section>
 
 <section id="formacao">
-    <h2>Formação Acadêmica</h2>
-    <div class="content">
-        <div>
-            <h3>Centro Universitário de Brasília</h3>
-            <p><strong>Curso:</strong> Análise e Desenvolvimento de Sistemas (Cursando - 1º Semestre)</p>
-            <p><strong>Período:</strong> Mar/2025</p>
-        </div>
-    </div>
+  <h2>🎓 Formação Acadêmica</h2>
+  <div class="card">
+    <p><strong>Ensino Médio:</strong> Centro Educacional 02 de Sobradinho (2019)</p>
+    <p><strong>Graduação:</strong> Análise e Desenvolvimento de Sistemas - UNICEUB (Cursando - 1º Semestre, Mar/2025)</p>
+  </div>
 </section>
 
 <section id="habilidades">
-    <h2>Habilidades</h2>
-    <div class="content">
-        <div>
-            <ul>
-                <li>Gestão de processos administrativos e licitações.</li>
-                <li>Coordenação de equipes e liderança.</li>
-                <li>Planejamento e organização de tarefas.</li>
-                <li>Comunicação eficaz e negociação.</li>
-                <li>Conhecimento em Licitações Públicas (Lei 8.666/93, Lei 14133 e atualizações).</li>
-            </ul>
-        </div>
-    </div>
+  <h2>🛠️ Habilidades e Competências</h2>
+  <div class="card">
+    <ul>
+      <li>👨‍✈️ Liderança e coordenação de equipes</li>
+      <li>📋 Gestão de processos de licitação</li>
+      <li>🗃️ Organização e controle de documentos</li>
+      <li>🗣️ Comunicação eficaz e negociação</li>
+      <li>📚 Conhecimento nas Leis 8.666/93, 14133</li>
+      <li>📦 Controle de materiais e estoque</li>
+    </ul>
+  </div>
 </section>
 
 <section id="contato">
-    <h2>Contato</h2>
-    <div class="content">
-        <div>
-            <h3>Entre em contato:</h3>
-            <ul>
-                <li>Email: <a href="mailto:tavares.lucas1340@gmail.com">tavares.lucas1340@gmail.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/lucas-da-silva-tavares/" target="_blank"><button class="button">Visitar meu LinkedIn</button></a></li>
-                <li>Telefone: <a href="tel:+5561999446987"><button class="button">Ligar para (61) 99944-6987</button></a></li>
-            </ul>
-        </div>
+  <h2>📞 Contato</h2>
+  <div class="card">
+    <p>Você pode me encontrar pelos canais abaixo:</p>
+    <div class="contato-buttons">
+      <a href="mailto:tavares.lucas1340@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+      <a href="tel:+5561999446987"><i class="fas fa-phone"></i> Telefone</a>
+      <a href="https://www.linkedin.com/in/lucas-da-silva-tavares/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
     </div>
+  </div>
 </section>
 
 <footer>
-    <p>&copy; 2025 Lucas da Silva Tavares - Todos os direitos reservados.</p>
+  <p>&copy; 2025 Lucas da Silva Tavares. Todos os direitos reservados.</p>
 </footer>
 
 </body>
 </html>
-         
-
